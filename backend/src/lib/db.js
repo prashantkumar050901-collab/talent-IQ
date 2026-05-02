@@ -1,6 +1,6 @@
 import mongoose from "mongoose";
 
-import { ENV ,DB_URL} from "./env.js";
+import { ENV } from "./env.js";
 
 export const connectDB = async () => {
   try {
